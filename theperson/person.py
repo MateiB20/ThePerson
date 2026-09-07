@@ -96,8 +96,8 @@ class Person:
         self.inventory = inventory if inventory is not None else Inventory()
 
     def greet(self,
-            target: Person | None = None,
-            use_nickname: bool = False) -> None:
+              target: Person | None = None,
+              use_nickname: bool = False) -> None:
         """Do a simple greeting and introduction.
 
         Args:
